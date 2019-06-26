@@ -1,0 +1,95 @@
+ul {
+list-style-image: url("military.jpg");
+list-style: square inside url("military.jpg");
+
+}
+
+p {
+
+text-align: center;
+
+}
+
+header {
+	background-color: orange;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+footer {
+  background-color: #777;
+  padding: 0px;
+  text-align: center;
+  color: white;
+}
+iframe {
+	float: right;
+	margin: 0 auto;
+}
+
+ #navbar ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li {  
+	display: inline;  
+	} 
+ 
+ li {
+  float: ;
+}
+
+
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .1em 1em; 
+	color: #fff; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	}
+
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:10%;
+  text-align:center;
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:2px;
+  margin-top:2px;
+  display:block;
+  width:50%;
+  color:red;
+}
+.main {
+  float:left;
+  width:70%;
+  padding:0 20px;
+  background-color: tan;
+}
+.right {
+  background-color:#e5e5e5;
+  float:right;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
