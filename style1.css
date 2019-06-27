@@ -35,6 +35,10 @@
 	font-size: 20px;
 	background-image: url("https://images.pexels.com/photos/1308624/pexels-photo-1308624.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 	padding: 20px;
+	position: relative;
+  width: auto;
+  bottom: 5px;
+  border: 3px solid #8AC007;
 
 }
 
@@ -61,4 +65,12 @@ body {
 
 iframe {
 	text-align: center;
+}
+
+#demo1 {
+	color: #009FFF;
+	font-family: arial;
+	font-size: 40px;
+	font-style: bold;
+	
 }
