@@ -1,0 +1,64 @@
+<style>
+#navbar ul { 
+	margin: 0; 
+	padding: 20px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #000; 
+} 
+
+#navbar ul li { 
+	display: inline; 
+	} 
+
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .3em 1em; 
+	color: #fff; 
+	background-color: #000; 
+} 
+
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+}
+
+.header {
+	color: brown;
+	font-size: 50px;
+	background-image: url("https://images.pexels.com/photos/1308624/pexels-photo-1308624.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+}
+
+.footer {
+	color: white;
+	font-size: 20px;
+	background-image: url("https://images.pexels.com/photos/1308624/pexels-photo-1308624.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	padding: 20px;
+
+}
+
+p {
+	color: purple;
+	font-size: 20px;
+	font-family: comic sans ms;
+}
+
+h1 {
+	
+	border: 1px solid orange;
+	padding: 30px;
+}
+h2 {
+	color: blue;
+	font-size: 44px;
+	
+}
+body {
+	background-color:#00FF00;
+	background-image: 
+}
+
+iframe {
+	text-align: center;
+}
