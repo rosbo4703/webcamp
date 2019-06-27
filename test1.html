@@ -5,16 +5,18 @@
 <head>
 	<title>My Test Site</title>
 
-<link rel="stylesheet" type="text/css" href="css/style1.css">
-//<script>
+<link rel="stylesheet" type="text/css" href="style1.css">
+
+<script>
 function myFunction() {
   document.getElementById("demo").innerHTML = "Paragraph changed.";
 }
-</script>//
+</script>
 
 <style>
 </style>
 </head>
+
 
 <body >
 <div id="navbar"> 
@@ -30,12 +32,19 @@ function myFunction() {
 <div class="header">
   	<h1>My Website Name</h1>
 </div>
-<h2>JavaScript in Head</h2>
 
-<p id="demo">A Paragraph.</p>
+<h2>My First JavaScript</h2>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
 
-<button type="button" onclick="myFunction()">Try it</button>
-<script src="myScript.js"></script>
+<br>
+<hr>
+<h2>Click for a Special Message</h2>
+<p id="demo1">I have a special message for my visitors!.</p>
+
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "Hi! thanks for visiting my website. I hope you find some interesting info here. Please tell all of your friends to visit it!"'>Click for a message!</button>
 
 <br>
 <hr>
